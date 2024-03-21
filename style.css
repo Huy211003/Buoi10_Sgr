@@ -121,6 +121,21 @@ body {
     margin: 10px;
 }
 
+.task .edit-btn {
+    background-color: #28a745;
+    /* Màu xanh lá cây */
+}
+
+.task .edit-btn:hover {
+    background-color: #218838;
+    /* Màu xanh lá cây tối hơn khi hover */
+}
+
+.task .edit-btn.active {
+    background-color: #218838;
+    /* Màu xanh lá cây tối hơn khi active */
+}
+
 .delete-btn {
     background-color: #ff4444;
     color: white;
@@ -129,4 +144,8 @@ body {
 .edit-btn {
     background-color: #007bff;
     color: white;
+}
+
+.done-text {
+    text-decoration: line-through;
 }
